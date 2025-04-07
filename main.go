@@ -117,7 +117,7 @@ func main() {
 				status = "FAIL"
 			}
 			
-			log.Printf("[%s] %s (%s) - %s %s - %d - %s", 
+			log.Printf("[%s] %s [CN=%s] - %s %s - %d - %s", 
 				status, clientIP, clientName, method, path, 
 				recorder.statusCode, duration)
 		}),
